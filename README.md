@@ -8,6 +8,11 @@ npm i
 # Create the .env file from its example
 cp .env.example .env
 
+# Replace this 3 variables in .env with the actual values
+MONGO_URI=REPLACE_ME
+HUBSPOT_CID=REPLACE_ME
+HUBSPOT_CS=REPLACE_ME
+
 # Start the process
 npm start
 ```
